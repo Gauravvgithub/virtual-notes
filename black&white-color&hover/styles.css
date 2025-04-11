@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .image-container img {
+    width: 300px; /* Adjust size as needed */
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease, transform 0.3s ease;
+  }
+  
+  .image-container img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1); /* Optional: Adds a zoom effect */ 
+  }
+  p{
+    color: red;
+  }
+  p::selection{
+    background-color: grey;
+  }

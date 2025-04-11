@@ -1,0 +1,92 @@
+* {
+    font-family: 'SF Pro Rounded Medium'!important;
+}
+
+.bg-dark {
+    background-color: #343a40 !important;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.bg-secondary {
+    background-color: #6c757d !important;
+}
+
+.p-3 {
+    padding: 1rem !important;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.heading {
+    font-size: 50px !important;
+    margin-top: -9px;
+}
+
+.mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.lead {
+    font-weight: bold;
+}
+
+.mb-5 {
+    margin-bottom: 3rem !important;
+}
+
+.display-2 {
+    font-size: 72px;
+}
+
+.form-control {
+    height: 50px !important;
+}
+
+.mt-5 {
+    margin-top: 3rem !important;
+}
+
+#word-input {
+    text-align: center;
+}
+
+#word-input::placeholder {
+    text-align: center;
+    color: gray;
+}
+
+#instructions {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#instructions b {
+    color: #28a745;
+}
+
+@media(max-width: 768px){
+    body{
+        font-weight: 900 !important;
+    }
+    .lead{
+        font-size: 12px !important;
+    }
+    .display-2 {
+        font-size: 68px !important;
+    }
+    .offset-3 {
+        margin-left: 0 !important;
+    }
+}

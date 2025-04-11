@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Counter</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        #counter { font-size: 24px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h2>Visitor Count</h2>
+    <p id="counter">Loading...</p>
+
+    <script>
+        let count = localStorage.getItem('page_view');
+        if (count === null) {
+            count = 1;
+        } else {
+            count = parseInt(count) + 1;
+        }
+        localStorage.setItem('page_view', count);
+        document.getElementById('counter').textContent = `Visitors: ${count}`;
+    </script>
+</body>
+</html>
